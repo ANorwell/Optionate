@@ -34,7 +34,7 @@ User.find(user_id)
 Optionnil provides the following methods:
 
 * `try` - if the object is defined, performs and returns the result of the provided operation. This is already part of
-  the [ActiveSupport core extensions](http://guides.rubyonrails.org/active_support_core_extensions.html#try)
+  the [ActiveSupport core extensions](http://guides.rubyonrails.org/active_support_core_extensions.html#try).
 * `or_else` - if the object is nil, performs and returns the result of the provided operation.
 * `then` - performs and returns the result of the provided operation.
 * `on_present` - if the object is defined, performs - but does not return - the result of the provided operation
