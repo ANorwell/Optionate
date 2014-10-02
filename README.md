@@ -34,14 +34,14 @@ User.find(user_id)
 Optionnil provides the following methods:
 
 * `try` - if the object is defined, performs and returns the result of the provided operation. This is already part of
-  the [http://guides.rubyonrails.org/active_support_core_extensions.html#try](ActiveSupport core extensions)
+  the [ActiveSupport core extensions](http://guides.rubyonrails.org/active_support_core_extensions.html#try)
 * `or_else` - if the object is nil, performs and returns the result of the provided operation.
 * `then` - performs and returns the result of the provided operation.
 * `on_present` - if the object is defined, performs - but does not return - the result of the provided operation
 * `on_nil` - if the object is nil, performs - but does not return - the result of the provided operation.
 * `tap` - performs - but does not return - the result of the provided operation. This is part of ruby by default.
 
-Optionate is inspired by the [http://www.scala-lang.org/api/current/index.html#scala.Option](Scala option type).
+Optionate is inspired by the [Scala option type](http://www.scala-lang.org/api/current/index.html#scala.Option).
 
 ## Installation
 
